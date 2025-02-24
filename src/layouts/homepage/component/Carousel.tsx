@@ -4,7 +4,7 @@ import 'animate.css/animate.min.css';
 // import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 // import '../../../assets/lib/owlcarousel/assets/owl.theme.default.min.css'
-import '../../../assets/lib/owlcarousel/assets/owl.carousel.css'
+// import '../../../assets/lib/owlcarousel/assets/owl.carousel.css'
 
 const Carousel: React.FC = () => {
     useEffect(() => {
@@ -24,7 +24,7 @@ const Carousel: React.FC = () => {
             <h2>aaaaaa</h2>
             <div className="owl-carousel header-carousel position-relative">
                 <div className="owl-carousel-item position-relative wow slideInLeft" data-wow-delay="0.5s">
-                    <img className="img-fluid" src="lib/img/carousel-1.jpg" alt="" />
+                    <img className="img-fluid" src="static/img/carousel-1.jpg" alt="" />
                     <div className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style={{ background: 'rgba(43, 57, 64, .5)' }}>
                         <div className="container">
                             <div className="row justify-content-start">
@@ -47,7 +47,7 @@ const Carousel: React.FC = () => {
                     </div>
                 </div>
                 <div className="owl-carousel-item position-relative wow fadeInUp">
-                    <img className="img-fluid" src="lib/img/carousel-2.jpg" alt="" />
+                    <img className="img-fluid" src="static/img/carousel-2.jpg" alt="" />
                     <div className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style={{ background: 'rgba(43, 57, 64, .5)' }}>
                         <div className="container">
                             <div className="row justify-content-start">

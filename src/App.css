@@ -12,3 +12,11 @@
   width: 100% !important;
   height: auto !important;
 } */
+ .login-btn {
+  margin-bottom: 10px  ;
+  margin-top:auto;
+ }
+
+ .google-btn{
+  background-color: rgb(101, 204, 245) !important;
+ }

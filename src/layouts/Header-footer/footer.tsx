@@ -1,7 +1,8 @@
 import React from 'react';
+import { KEY_TOKEN } from '../../service/LocalStorageService';
 
 function Footer() {
-    const isLocalStorage = localStorage.getItem('token')
+    const isLocalStorage = localStorage.getItem(KEY_TOKEN)
 
     return (
         <>

@@ -7,16 +7,16 @@ function About() {
                     <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                         <div className="row g-0 about-bg rounded overflow-hidden">
                             <div className="col-6 text-start">
-                                <img className="img-fluid w-100" src="lib/img/about-1.jpg" alt="About 1" />
+                                <img className="img-fluid w-100" src="static/lib/img/about-1.jpg" alt="About 1" />
                             </div>
                             <div className="col-6 text-start">
-                                <img className="img-fluid" src="lib/img/about-2.jpg" style={{ width: '85%', marginTop: '15%' }} alt="About 2" />
+                                <img className="img-fluid" src="static/lib/img/about-2.jpg" style={{ width: '85%', marginTop: '15%' }} alt="About 2" />
                             </div>
                             <div className="col-6 text-end">
-                                <img className="img-fluid" src="lib/img/about-3.jpg" style={{ width: '85%' }} alt="About 3" />
+                                <img className="img-fluid" src="static/lib/img/about-3.jpg" style={{ width: '85%' }} alt="About 3" />
                             </div>
                             <div className="col-6 text-end">
-                                <img className="img-fluid w-100" src="lib/img/about-4.jpg" alt="About 4" />
+                                <img className="img-fluid w-100" src="static/lib/img/about-4.jpg" alt="About 4" />
                             </div>
                         </div>
                     </div>
