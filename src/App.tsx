@@ -15,6 +15,7 @@ import ProfilePage from './layouts/Profile/Profile';
 import ProtectedRoutes from './api/ProtectedRoutes';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import Authenticate from './layouts/auth/Authenticate';
+import UserManagement from './layouts/admin/UserManagement';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
               <Route path="/profile" element={<ProfilePage />} />
             </Route>
             <Route path="/activate/:email/:activationCode" element={<Activation />} />
+            <Route path="/usermanagement" element={<UserManagement />} />
           </Routes>
           <Footer />
         </BrowserRouter>
