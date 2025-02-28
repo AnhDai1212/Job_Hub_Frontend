@@ -37,7 +37,7 @@ const Login = () => {
                 const jwt = data.result?.token;
                 localStorage.setItem(KEY_TOKEN, jwt); // Lưu JWT vào localStorage
                 setError('Đăng nhập thành công.');
-                console.log(localStorage.getItem("token"));
+                console.log(localStorage.getItem(KEY_TOKEN));
                 navigate('/'); // Điều hướng đến trang chủ
             })
             .catch((error) => {

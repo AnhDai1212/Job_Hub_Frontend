@@ -1,10 +1,11 @@
 import React from "react";
 import { UserModel } from "../models/UserModel";
+import { KEY_TOKEN } from "../service/LocalStorageService";
 
 
 export async function getMyInfo(url: string): Promise<UserModel | null> {
   try {
-    const token = localStorage.getItem("token"); // Lấy token từ localStorage
+    const token = localStorage.getItem(KEY_TOKEN); // Lấy token từ localStorage
     if (!token) throw new Error("No token found");
 
     const response = await fetch(url, {
