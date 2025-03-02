@@ -59,6 +59,7 @@ const Register = () => {
                     setPhone("");
                     setGender("");
                     setNotification("Đăng ký thành công, vui lòng kiểm tra email để kích hoạt!");
+                    
                 } else {
                     console.log(response.json());
                     setNotification("Đã xảy ra lỗi trong quá trình đăng ký tài khoản.")
